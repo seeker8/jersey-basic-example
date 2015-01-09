@@ -45,6 +45,6 @@ public class MyResourceTest {
     @Test
     public void testgetJson() {
         String responseMsg = target.path("myresource/json").request().get(String.class);
-        assertEquals("{user:{name:Jesus,lastName:Valadez}}", responseMsg);
+        assertEquals("{regards:Got it!}", responseMsg);
     }
 }

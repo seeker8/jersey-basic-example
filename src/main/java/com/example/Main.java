@@ -17,7 +17,8 @@ public class Main {
 	public static HttpServer startServer() {
 		HttpServer server = new HttpServer();
 
-		ResourceConfig config = new ResourceConfig(MyResource.class);
+		ResourceConfig config = new ResourceConfig();
+		config.packages("com.example.resources");
 		server = GrizzlyHttpServerFactory.createHttpServer(BASE_URI, config);
 
 		return server;
