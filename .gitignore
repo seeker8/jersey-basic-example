@@ -1,0 +1,8 @@
+bin
+build
+.gradle
+.settings
+gradlew
+gradlew.bat
+gradle
+settings.gradle
