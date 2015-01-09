@@ -34,6 +34,6 @@ public class MyResource {
 	@Path("json")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getJson() {
-		return "{user:{name:Jesus,lastName:Valadez}}";
+		return "{regards:Got it!}";
 	}
 }
