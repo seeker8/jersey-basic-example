@@ -1,2 +1,2 @@
 # jersey-basic-example
-RESTful basic example using JERSEY and gradle
+RESTful basic example using JERSEY and Grizzly
